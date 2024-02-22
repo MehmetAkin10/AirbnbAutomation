@@ -44,6 +44,8 @@ public class TestCase extends BaseTest {
         filterPage.olanaklarScrollClick();
         filterPage.kiralaClick();
 
+        System.out.println("New Branch");
+
         HomeProfilePage homeProfilePage = new HomeProfilePage(driver);
         methods.switchWindow();
         homeProfilePage.popupClose();
